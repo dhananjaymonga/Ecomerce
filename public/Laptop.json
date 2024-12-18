@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook Pro 16-inch (M2 Max)",
+    "company": "Apple",
+    "price": 3499,
+    "description": "The ultimate MacBook Pro with M2 Max chip, 16-inch Liquid Retina XDR display, and up to 96GB of unified memory.",
+    "image": "/img/laptop2.webp",    "reviews": 4.9,
+    "salePrice": 3299,
+    "sale": true
+  },
+  {
+    "id": 2,
+    "name": "MacBook Air 13-inch (M2)",
+    "company": "Apple",
+    "price": 1199,
+    "description": "Lightweight and powerful with the M2 chip, 13-inch Liquid Retina display, and all-day battery life.",
+    "image": "/img/laptop3.webp",  
+      "reviews": 4.8,
+    "salePrice": 1099,
+    "sale": true
+  },
+  {
+    "id": 3,
+    "name": "Dell XPS 13 Plus",
+    "company": "Dell",
+    "price": 1299,
+    "description": "A sleek and modern ultrabook with Intel Core i7, InfinityEdge display, and advanced thermal design.",
+    "image": "/img/Laptop.avif",    "reviews": 4.7,
+    "salePrice": null,
+    "sale": false
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 15",
+    "company": "Dell",
+    "price": 1899,
+    "description": "High-performance laptop featuring Intel Core i9, NVIDIA GeForce RTX graphics, and a stunning OLED display.",
+    "image": "/img/Laptop.avif",    "reviews": 4.8,
+    "salePrice": 1799,
+    "sale": true
+  },
+  {
+    "id": 5,
+    "name": "HP Spectre x360 14",
+    "company": "HP",
+    "price": 1399,
+    "description": "Premium 2-in-1 convertible laptop with a 3:2 OLED display, Intel Evo platform, and excellent battery life.",
+    "image": "/img/Laptop.avif",    "reviews": 4.7,
+    "salePrice": 1299,
+    "sale": true
+  },
+  {
+    "id": 6,
+    "name": "HP Envy 15",
+    "company": "HP",
+    "price": 1249,
+    "description": "A creative powerhouse with Intel Core i7, NVIDIA GTX graphics, and a vibrant 4K touchscreen display.",
+    "image": "/img/laptop5.webp",    "reviews": 4.6,
+    "salePrice": null,
+    "sale": false
+  },
+  {
+    "id": 7,
+    "name": "MacBook Pro 14-inch (M2 Pro)",
+    "company": "Apple",
+    "price": 1999,
+    "description": "Powerful 14-inch MacBook Pro with M2 Pro chip, Liquid Retina XDR display, and up to 18 hours of battery life.",
+    "image": "/img/laptop4.webp",
+        "reviews": 4.9,
+    "salePrice": 1899,
+    "sale": true
+  }
+]
+
+    
+    

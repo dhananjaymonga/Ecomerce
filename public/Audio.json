@@ -1,0 +1,85 @@
+{
+    "airbuds": [
+      {
+        "id": 1,
+        "title": "Apple AirPods Pro 2nd Gen",
+        "price": 249,
+        "description": "Noise-canceling true wireless earbuds with improved battery life and spatial audio.",
+        "image": "https://example.com/airpods-pro-2.jpg",
+        "review": 4.8
+      },
+      {
+        "id": 2,
+        "title": "Samsung Galaxy Buds2 Pro",
+        "price": 229,
+        "description": "Hi-Fi sound quality with ANC and a lightweight, comfortable design.",
+        "image": "https://example.com/galaxy-buds2-pro.jpg",
+        "review": 4.6
+      },
+      {
+        "id": 3,
+        "title": "Sony WF-1000XM4",
+        "price": 279,
+        "description": "Premium sound, industry-leading noise cancelation, and IPX4 water resistance.",
+        "image": "https://example.com/sony-wf-1000xm4.jpg",
+        "review": 4.7
+      },
+      {
+        "id": 4,
+        "title": "Jabra Elite 85t",
+        "price": 199,
+        "description": "Compact earbuds with ANC, 7-microphone call technology, and comfortable fit.",
+        "image": "https://example.com/jabra-elite-85t.jpg",
+        "review": 4.5
+      },
+      {
+        "id": 5,
+        "title": "Bose QuietComfort Earbuds II",
+        "price": 299,
+        "description": "Best-in-class noise cancelation and lifelike sound quality.",
+        "image": "https://example.com/bose-quietcomfort-earbuds-ii.jpg",
+        "review": 4.9
+      },
+      {
+        "id": 6,
+        "title": "OnePlus Buds Pro 2",
+        "price": 179,
+        "description": "High-quality sound with ANC and Dolby Atmos support.",
+        "image": "https://example.com/oneplus-buds-pro-2.jpg",
+        "review": 4.4
+      },
+      {
+        "id": 7,
+        "title": "Beats Fit Pro",
+        "price": 199,
+        "description": "Secure fit earbuds with spatial audio and Adaptive EQ.",
+        "image": "https://example.com/beats-fit-pro.jpg",
+        "review": 4.6
+      },
+      {
+        "id": 8,
+        "title": "Sennheiser Momentum True Wireless 3",
+        "price": 249,
+        "description": "Superior sound quality, ANC, and ergonomic design.",
+        "image": "https://example.com/sennheiser-momentum-tw3.jpg",
+        "review": 4.7
+      },
+      {
+        "id": 9,
+        "title": "Google Pixel Buds Pro",
+        "price": 199,
+        "description": "Seamless Google Assistant integration with ANC and multipoint Bluetooth.",
+        "image": "https://example.com/google-pixel-buds-pro.jpg",
+        "review": 4.5
+      },
+      {
+        "id": 10,
+        "title": "Anker Soundcore Liberty 3 Pro",
+        "price": 169,
+        "description": "Affordable earbuds with high-res audio and personalized ANC.",
+        "image": "https://example.com/anker-liberty-3-pro.jpg",
+        "review": 4.3
+      }
+    ]
+  }
+  

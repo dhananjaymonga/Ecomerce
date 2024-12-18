@@ -1,0 +1,12 @@
+[
+    {
+      "name": "Samsung Galaxy S23",
+      "description": "Latest Samsung Galaxy mobile",
+      "price": "$999"
+    },
+    {
+      "name": "iPhone 14",
+      "description": "Latest iPhone with advanced features",
+      "price": "$1099"
+    }
+  ]

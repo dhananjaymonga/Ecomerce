@@ -6,6 +6,7 @@ import Pay from './Pay'
 import Carrersf from './Carrersf'
 
 const About = () => {
+    
   return (
     <div>
         <Navbar/>

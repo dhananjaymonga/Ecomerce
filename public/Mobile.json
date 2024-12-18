@@ -1,0 +1,89 @@
+ [
+  {
+    "id": 1,
+    "name": "iPhone 13 Pro Max",
+    "company": "Apple",
+    "price": 1299,
+    "description": "Apple's iPhone 13 Pro Max offers a stunning 6.7-inch Super Retina XDR display, triple cameras, and A15 Bionic chip for exceptional performance.",
+    "image": "/img/phone.webp",
+
+    "reviews": 4.8,
+    "salePrice": 1199,
+    "sale": true
+  },
+    {
+      "id": 2,
+      "name": "iPhone 14 Pro",
+      "company": "Apple",
+      "price": 1399,
+      "description": "The iPhone 14 Pro introduces Dynamic Island, always-on display, and the powerful A16 Bionic chip.",
+      "reviews": 4.9,
+      "image": "/img/phone2.webp",
+
+      "salePrice": 1299,
+      "sale": true
+    },
+    {
+      "id": 3,
+      "name": "Galaxy S23",
+      "company": "Samsung",
+      "price": 1799,
+      "description": "Samsung Galaxy S23  offers a foldable design with a 7.6-inch AMOLED screen, S Pen support, and Snapdragon 888.",
+      "image": "/img/phone3.webp",
+ 
+      "reviews": 4.7,
+      "salePrice": 1699,
+      "sale": true
+    },
+    {
+      "id": 4,
+      "name": "iPhone 12",
+      "company": "Apple",
+      "price": 799,
+      "description": "iPhone 12 offers a 6.1-inch Super Retina XDR display, A14 Bionic chip, and ceramic shield for better durability.",
+      "image": "/img/phone1.webp",
+
+      "reviews": 4.6,
+      "salePrice": 699,
+      "sale": true
+    },
+    {
+      "id": 5,
+      "name": "iPhone SE (2022)",
+      "company": "Apple",
+      "price": 429,
+      "description": "The compact iPhone SE features the A15 Bionic chip, 5G support, and Touch ID in a classic design.",
+      "image": "/img/phonese.jpeg",
+      "reviews": 4.5,
+
+      "salePrice": 549,
+      "sale": false
+    },
+    {
+      "id": 6,
+      "name": "iPhone 11",
+      "company": "Apple",
+      "price": 599,
+      "description": "iPhone 11 combines dual cameras, Liquid Retina HD display, and A13 Bionic for excellent performance.",
+      
+      "image": "/img/phone11.webp",
+      "reviews": 4.7,
+      "salePrice": null,
+      "sale": false
+    },
+ 
+    {
+      "id": 7,
+      "name": "Galaxy S23 Ultra",
+      "company": "Samsung",
+      "price": 1199,
+      "description": "Samsung Galaxy S23 Ultra comes with a 6.8-inch AMOLED display, Snapdragon 8 Gen 2 processor, and 200MP camera.",
+      "reviews": 4.8,
+      "salePrice": 1099,
+      "image": "/img/phone3.webp",
+
+      "sale": false
+    }
+   
+  ]
+
