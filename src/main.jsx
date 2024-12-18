@@ -7,7 +7,9 @@ import { BrowserRouter,createBrowserRouter,RouterProvider } from 'react-router-d
 import Helpcenters from './Component/Helpcenters.jsx';
 import Contact from './Component/Contact.jsx';
 import About from './Component/About.jsx';
-
+import AddCArt from './Component/AddCArt.jsx';
+import Store from './Context/Store.jsx';
+import Item from './Component/Item.jsx';
 const router=createBrowserRouter([
   {
     path:"/",
@@ -22,6 +24,14 @@ const router=createBrowserRouter([
     element:<Contact/>
   },
   {
+    path:"/AddCaRt", 
+    element:<AddCArt/>
+  },
+   {
+    path:"/item", 
+    element:<Item/>
+  },
+  {
     path:"/Helpcenter", 
     element:<Helpcenters/>
   }
@@ -29,8 +39,11 @@ const router=createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  
-  <RouterProvider router={router}/>
+  <Store>
+    <RouterProvider router={router}/>
+
+  </Store>
+ 
 
   
 )

@@ -1,10 +1,16 @@
-import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
-const Phone = () => {
+import React, { useState, useEffect,useContext, } from "react";
+import {dataProvider} from "../Context/Store"
+
+
+import { NavLink,useNavigate } from "react-router-dom";
+const Phone = ( ) => {
+  const navigate = useNavigate();
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [priceRange, setPriceRange] = useState([70, 85]);
   const [selectedCompanies, setSelectedCompanies] = useState([]);
   const [selectedSpecializations, setSelectedSpecializations] = useState([]);
+  const { cart,setCart,wishlist,setWishlist,item,setItem } = useContext(dataProvider);
+
   
 const [category, setCategory] = useState("Mobile")
 const [searchQuery, setSearchQuery] = useState(""); // State for search query
@@ -22,6 +28,28 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
   const handleCategoryClick = (newCategory) => {
     setCategory(newCategory);
   };
+
+ 
+  const handleClick = (product) => {
+    setItem([product.price])
+    console.log(item)
+    navigate('/item');
+  };
+
+  const addToCart = (product) => {
+    console.log("hell")
+    if (!cart.find((item) => item.id === product.id)) {
+      setCart([...cart, product]);
+    }
+  };
+  const toggleWishlist = (product) => {
+    if (wishlist.find((item) => item.id === product.id)) {
+      setWishlist(wishlist.filter((item) => item.id !== product.id));
+    } else {
+      setWishlist([...wishlist, product]);
+    }
+  };
+
   const handleSearchChange = (event) => {
     const value = event.target.value.toLowerCase();
     setSearchQuery(value);
@@ -68,7 +96,7 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
             <NavLink to="/login" className="hover:underline">
               Log In
             </NavLink>
-            <NavLink to="/cart" className="hover:underline">
+            <NavLink to="/AddCaRt" className="hover:underline">
               <i className="fas fa-shopping-cart"></i>
             </NavLink>
           </div>
@@ -113,7 +141,7 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
             </li>
             <li
               className="hover:text-purple-300 cursor-pointer hover:underline list-none"
-              onClick={() => handleCategoryClick("SmartTV")}
+              onClick={() => handleCategoryClick("SmartTv")}
             >
               SmartTV
             </li>
@@ -285,7 +313,7 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                 {products.map((product) => (
                   <div
-                    key={product.id}
+                    key={product.id} 
                     className="bg-white p-4 shadow rounded relative overflow-hidden inline-block"
                   >
                     {product.sale && (
@@ -296,6 +324,7 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
                     <img
                       src={product.image}
                       alt={product.name}
+                      onClick={() => handleClick(product)}
                       className="transition-transform duration-300 ease-in-out transform hover:scale-110 mb-4"
                     />{" "}
                     <h3 className="text-lg font-bold">{product.name}</h3>
@@ -313,6 +342,23 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
                     ) : (
                       <p className="text-purple-600">${product.price}.00</p>
                     )}
+
+<div className="flex items-center justify-between mt-4">
+              {/* Wishlist Icon */}
+              <i
+                className={`fas fa-heart cursor-pointer ${
+                  wishlist.find((item) => item.id === product.id) ? 'text-red-600' : 'text-gray-400'
+                }`}
+                onClick={() => toggleWishlist(product)}
+              ></i>
+              {/* Add to Cart Button */}
+              <button
+                className="bg-purple-600 text-white px-4 py-2 rounded-full"
+                onClick={() => addToCart(product)}
+              >
+                Add to Cart
+              </button>
+            </div>
                   </div>
                 ))}
               </div>

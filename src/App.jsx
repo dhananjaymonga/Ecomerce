@@ -10,6 +10,8 @@ import FAQItem from "./Component/TechCenter";
 import Pay from "./Component/Pay"
 import { Tech } from "./Component/TechCenter";
 import ProductList from "./Component/Product";
+import AddCArt from "./Component/AddCArt";
+import Whislist from "./Component/Whislist";
 
 // import Phone1 from "./Component/Phone1";
 
@@ -24,20 +26,11 @@ const App = () => {
   const [category, setCategory] = useState("TV & Home Cinema");
   const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-      fetch(`/${category}.json`)
-          .then(response => response.json())
-          .then(data => setProducts(data));
-  }, [category]);
-
-  const handleCategoryClick = (newCategory) => {
-      setCategory(newCategory);
-  };
+ 
   return (
     <div>
-
+      <Whislist/>
       <Phone/>
-   
       <Need />
       <Footer />
       <Pay />
