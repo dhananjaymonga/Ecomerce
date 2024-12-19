@@ -9,13 +9,12 @@ const Phone = ( ) => {
   const [priceRange, setPriceRange] = useState([70, 85]);
   const [selectedCompanies, setSelectedCompanies] = useState([]);
   const [selectedSpecializations, setSelectedSpecializations] = useState([]);
-  const { cart,setCart,wishlist,setWishlist,item,setItem } = useContext(dataProvider);
+  const {products, setProducts,cart,setCart,wishlist,setWishlist,item,setItem } = useContext(dataProvider);
 
   
 const [category, setCategory] = useState("Mobile")
 const [searchQuery, setSearchQuery] = useState(""); // State for search query
 
-  const [products, setProducts] = useState([]);
 
 
   useEffect(() => {
@@ -32,7 +31,8 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
 
  
   const handleClick = (product) => {
-    setItem([product.price])
+    console.log(product)
+    setItem([product])
     console.log(item)
     navigate('/item');
   };
@@ -103,12 +103,12 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
         </header>
         <nav className="bg-white shadow p-4 flex justify-between items-center">
           <div className="flex space-x-4">
-            <li
+            {/* <li
               className="hover:text-purple-300 cursor-pointer hover:underline list-none"
               onClick={() => handleCategoryClick("Computers")}
             >
               Computers
-            </li>
+            </li> */}
             <li
               className="hover:text-purple-300 cursor-pointer hover:underline list-none"
               onClick={() => handleCategoryClick("Mobile")}
@@ -151,11 +151,13 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
             >
               Wearable Tech
             </li>
+            <li
+              className="hover:text-purple-300 cursor-pointer hover:underline list-none"
+              onClick={() => handleCategoryClick("Sales")}
+            >
+              Sales
+            </li>
            
-
-            <a href="#" className="hover:underline">
-              Sale
-            </a>
           </div>
           <div>
             <a href="#" className="hover:underline">
@@ -173,12 +175,12 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
                     All Products
                   </a>
                 </li>
-                <li
+                {/* <li
                   className="hover:text-purple-300 cursor-pointer hover:underline list-none"
                   onClick={() => handleCategoryClick("Computers")}
                 >
                   Computers
-                </li>
+                </li> */}
                 <li
                   className="hover:text-purple-300 cursor-pointer hover:underline list-none"
                   onClick={() => handleCategoryClick("Mobile")}
@@ -210,17 +212,18 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
                   Laptop
                 </li>
                 <li
-                  className="hover:text-purple-300 cursor-pointer hover:underline list-none"
-                  onClick={() => handleCategoryClick("SmartTV")}
-                >
-                  SmartTV
-                </li>
+              className="hover:text-purple-300 cursor-pointer hover:underline list-none"
+              onClick={() => handleCategoryClick("SmartTv")}
+            >
+              SmartTV
+            </li>
                 <li
                   className="hover:text-purple-300 cursor-pointer hover:underline list-none"
                   onClick={() => handleCategoryClick("WearableTech")}
                 >
                   Wearable Tech
                 </li>
+
               
               </ul>
               <h2 className="text-2xl font-bold mt-8 mb-4">Filter by</h2>

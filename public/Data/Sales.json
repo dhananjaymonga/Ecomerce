@@ -1,0 +1,160 @@
+[
+    {
+      "id": "HAB001",
+      "company": "Sony",
+      "name": "Sony WH-1000XM5",
+      "image": "/img/HeadPhones/headphone1.jpeg",
+      "description": "Industry-leading noise-canceling headphones with 30 hours of battery life.",
+      "price": 29999,
+      "salePrice": 27999,
+      "sale": true,
+      "review": {
+        "rating": 4.8,
+        "total_reviews": 3200
+      },
+      "product_info": {
+        "type": "Over-ear headphones",
+        "noise_cancellation": "Active",
+        "battery_life": "30 hours",
+        "connectivity": "Bluetooth 5.2"
+      }
+    },
+    {
+        "id": "HAB007",
+        "company": "Apple",
+        "name": "Apple AirPods Max",
+        "image": "/img/HeadPhones/headphone7.jpeg",
+        "description": "Over-ear headphones with stunning design, Spatial Audio, and top-notch sound quality.",
+        "price": 59999,
+        "salePrice": 57999,
+        "sale": true,
+        "review": {
+          "rating": 4.8,
+          "total_reviews": 2200
+        },
+        "product_info": {
+          "type": "Over-ear headphones",
+          "noise_cancellation": "Active",
+          "battery_life": "20 hours",
+          "connectivity": "Bluetooth 5.0"
+        }
+      }, 
+      {
+        "id": 2,
+        "name": "MacBook Air 13-inch (M2)",
+        "company": "Apple",
+        "price": 1199,
+        "description": "Lightweight and powerful with the M2 chip, 13-inch Liquid Retina display, and all-day battery life.",
+        "image": "/img/laptop3.webp",  
+          "reviews": 4.8,
+        "salePrice": 1099,
+        "sale": true
+      },
+      {
+        "id": 1,
+        "name": "iPhone 13 Pro Max",
+        "company": "Apple",
+        "price": 1299,
+        "description": "Apple's iPhone 13 Pro Max offers a stunning 6.7-inch Super Retina XDR display, triple cameras, and A15 Bionic chip for exceptional performance.",
+        "image": "/img/phone.webp",
+    
+        "reviews": 4.8,
+        "salePrice": 1199,
+        "sale": true
+      },
+      {
+        "id": "DRN002",
+        "company": "Parrot",
+        "name": "Parrot Anafi",
+        "image": "/img/DroneImage/drone2.jpeg",
+        "description": "A lightweight and portable drone with a 4K HDR camera and 25 minutes of flight time.",
+        "price": 75000,
+        "salePrice": 70000,
+        "sale": true,
+        "review": {
+          "rating": 4.7,
+          "total_reviews": 1100
+        },
+        "product_info": {
+          "camera": "4K HDR Camera",
+          "flight_time": "25 minutes",
+          "range": "4 km",
+          "weight": "320g"
+        }
+      },
+      {
+        "id": "TAB005",
+        "company": "Samsung",
+        "name": "Samsung Galaxy Tab A8",
+        "image": "/img/TabletImage/tab3.jpeg",
+        "description": "A budget-friendly 10.5-inch tablet with quad speakers and a large display.",
+        "price": 18999,
+        "salePrice": 16999,
+        "sale": true,
+        "review": {
+          "rating": 4.4,
+          "total_reviews": 1500
+        },
+        "product_info": {
+          "screen_size": "10.5 inches",
+          "processor": "Unisoc T618",
+          "battery_life": "12 hours",
+          "storage": "64GB"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Galaxy S23",
+        "company": "Samsung",
+        "price": 1799,
+        "description": "Samsung Galaxy S23  offers a foldable design with a 7.6-inch AMOLED screen, S Pen support, and Snapdragon 888.",
+        "image": "/img/phone3.webp",
+   
+        "reviews": 4.7,
+        "salePrice": 1699,
+        "sale": true
+      },
+      {
+        "id": 8,
+        "name": "MacBook Pro 16-inch (M2 Max)",
+        "company": "Apple",
+        "price": 3499,
+        "description": "The ultimate MacBook Pro with M2 Max chip, 16-inch Liquid Retina XDR display, and up to 96GB of unified memory.",
+        "image": "/img/laptop2.webp",    "reviews": 4.9,
+        "salePrice": 3299,
+        "sale": true
+      },
+      
+      {
+        "id": "WT002",
+        "company": "TechWear",
+        "name": "Smartwatch 2.0",
+        "image": "/img/ImagewearableTech/watch2.jpeg",
+      "description": "A stylish smartwatch with customizable watch faces and fitness tracking capabilities.",
+        "price": 199.99,
+        "salePrice": 159.99,
+        "sale": true,
+        "review": {
+          "rating": 4.7,
+          "total_reviews": 5000
+        },
+        "product_info": {
+          "color": "Silver",
+          "battery_life": "5 days",
+          "water_resistant": true
+        }
+      },
+      {
+        "id": 7,
+        "name": "MacBook Pro 14-inch (M2 Pro)",
+        "company": "Apple",
+        "price": 1999,
+        "description": "Powerful 14-inch MacBook Pro with M2 Pro chip, Liquid Retina XDR display, and up to 18 hours of battery life.",
+        "image": "/img/laptop4.webp",
+            "reviews": 4.9,
+        "salePrice": 1899,
+        "sale": true
+      }
+
+
+]

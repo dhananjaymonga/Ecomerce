@@ -3,8 +3,15 @@ import {dataProvider} from "../Context/Store"
 const AddCArt = () => {
   // const dataProvider = createContext();
 
-  const { cart,setCart } = useContext(dataProvider);
+  const { cart,setCart,quantity,setQuantity } = useContext(dataProvider);
 console.log(cart)
+const incrementQuantity = () => {
+  setQuantity((prevQuantity) => prevQuantity + 1);
+};
+
+const decrementQuantity = () => {
+  setQuantity((prevQuantity) => (prevQuantity > 1 ? prevQuantity - 1 : 1));
+};
 
   // const removeItem = (id) => {
   //   const updatedCart = cartItems.filter((item) => item.id !== id);
@@ -34,9 +41,9 @@ console.log(cart)
               <p className="text-gray-500">${item.price.toFixed(2)}</p>
             </div>
             <div className="flex items-center gap-2">
-              <button className="px-2 py-1 border rounded">-</button>
-              <span>{item.quantity}</span>
-              <button className="px-2 py-1 border rounded">+</button>
+              <button className="px-2 py-1 border rounded" onClick={decrementQuantity}>-</button>
+              <span>{quantity}</span>
+              <button className="px-2 py-1 border rounded" onClick={incrementQuantity}>+</button>
 
               <button
                 onClick={() => removeItem(item.id)}
