@@ -22,7 +22,8 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
     fetch(`/Data/${category}.json`)
       .then((response) => response.json())
       .then((data) => setProducts(data));
-      setFilteredProducts(products);
+      setFilteredProducts((prevState) => [...prevState, products]);
+      // setFilteredProducts(products);
     }, [category]);
 
   const handleCategoryClick = (newCategory) => {
@@ -78,7 +79,6 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
   value={searchQuery} 
   onChange={handleSearchChange} 
 />
-{/* <input type="text"  className="text-black"/> */}
             <button className="bg-purple-600 p-2 rounded-r-md">
               <i className="fas fa-search"></i>
             </button>
