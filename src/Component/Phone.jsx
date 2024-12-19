@@ -152,6 +152,12 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
               Wearable Tech
             </li>
             <li
+                  className="hover:text-purple-300 cursor-pointer hover:underline list-none"
+                  onClick={() => handleCategoryClick("Shirts")}
+                >
+                  Shirts
+                </li>
+            <li
               className="hover:text-purple-300 cursor-pointer hover:underline list-none"
               onClick={() => handleCategoryClick("Sales")}
             >
@@ -222,6 +228,12 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
                   onClick={() => handleCategoryClick("WearableTech")}
                 >
                   Wearable Tech
+                </li>
+                <li
+                  className="hover:text-purple-300 cursor-pointer hover:underline list-none"
+                  onClick={() => handleCategoryClick("Shirts")}
+                >
+                  Shirts
                 </li>
 
               

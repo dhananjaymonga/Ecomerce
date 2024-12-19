@@ -1,0 +1,163 @@
+[
+    {
+      "id": "SH001",
+      "company": "Mufti",
+      "name": "Mufti Casual Shirt",
+      "price": 1299,
+      "salePrice": 1099,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt1.webp",
+      "description": "A stylish casual shirt with a slim fit and soft fabric.",
+      "size": ["S", "M", "L", "XL"],
+      "color": ["Blue", "Black", "White"],
+      "review": {
+        "rating": 4.5,
+        "total_reviews": 320
+      }
+    },
+    {
+      "id": "SH002",
+      "company": "Louis Philippe",
+      "name": "Louis Philippe Formal Shirt2",
+      "price": 2499,
+      "salePrice": 2199,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt2.webp",
+      "description": "A premium formal shirt with a classic fit and wrinkle-free fabric.",
+      "size": ["M", "L", "XL"],
+      "color": ["White", "Gray", "Blue"],
+      "review": {
+        "rating": 4.8,
+        "total_reviews": 450
+      }
+    },
+    {
+      "id": "SH003",
+      "company": "Allen Solly",
+      "name": "Allen Solly Party Wear Shirt",
+      "price": 1999,
+      "salePrice": 1899,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt3.webp",
+      "description": "An elegant party wear shirt with modern patterns and a slim fit.",
+      "size": ["S", "M", "L"],
+      "color": ["Black", "Red"],
+      "review": {
+        "rating": 4.6,
+        "total_reviews": 370
+      }
+    },
+    {
+      "id": "SH004",
+      "company": "U.S. Polo Assn.",
+      "name": "U.S. Polo Assn. Casual Shirt",
+      "price": 1499,
+      "salePrice": 1399,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt4.webp",
+      "description": "A comfortable casual shirt with a relaxed fit and breathable fabric.",
+      "size": ["M", "L", "XL"],
+      "color": ["Green", "Blue"],
+      "review": {
+        "rating": 4.4,
+        "total_reviews": 290
+      }
+    },
+    {
+      "id": "SH005",
+      "company": "Duke",
+      "name": "Duke Printed Shirt",
+      "price": 999,
+      "salePrice": 899,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt5.jpg",
+      "description": "A trendy printed shirt with a casual fit for daily wear.",
+      "size": ["S", "M", "L", "XL", "XXL"],
+      "color": ["White", "Black", "Yellow"],
+      "review": {
+        "rating": 4.2,
+        "total_reviews": 210
+      }
+    },
+    {
+      "id": "SH006",
+      "company": "Mufti",
+      "name": "Mufti Striped Shirt",
+      "price": 1399,
+      "salePrice": 1199,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt6.webp",
+      "description": "A striped shirt designed for a smart casual look.",
+      "size": ["M", "L", "XL"],
+      "color": ["Blue", "White"],
+      "review": {
+        "rating": 4.5,
+        "total_reviews": 180
+      }
+    },
+    {
+      "id": "SH007",
+      "company": "Louis Philippe",
+      "name": "Louis Philippe Linen Shirt",
+      "price": 2799,
+      "salePrice": 2599,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt7.jpeg",
+      "description": "A premium linen shirt perfect for summer with a relaxed fit.",
+      "size": ["L", "XL", "XXL"],
+      "color": ["White", "Beige"],
+      "review": {
+        "rating": 4.7,
+        "total_reviews": 360
+      }
+    },
+    {
+      "id": "SH008",
+      "company": "Allen Solly",
+      "name": "Allen Solly Slim Fit Shirt",
+      "price": 1899,
+      "salePrice": 1799,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt8.jpeg",
+      "description": "A slim-fit casual shirt with bold patterns and soft fabric.",
+      "size": ["M", "L"],
+      "color": ["Red", "Black"],
+      "review": {
+        "rating": 4.6,
+        "total_reviews": 290
+      }
+    },
+    {
+      "id": "SH009",
+      "company": "U.S. Polo Assn.",
+      "name": "U.S. Polo Assn. Plaid Shirt",
+      "price": 1599,
+      "salePrice": 1499,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt9.webp",
+      "description": "A plaid shirt with soft cotton fabric for a casual look.",
+      "size": ["S", "M", "L", "XL"],
+      "color": ["Blue", "Green", "Red"],
+      "review": {
+        "rating": 4.3,
+        "total_reviews": 250
+      }
+    },
+    {
+      "id": "SH010",
+      "company": "Duke",
+      "name": "Duke Denim Shirt",
+      "price": 1999,
+      "salePrice": 1799,
+      "sale": true,
+      "image": "/img/ShirtsImage/shirt10.jpeg",
+      "description": "A denim shirt with a rugged design and slim fit.",
+      "size": ["M", "L", "XL", "XXL"],
+      "color": ["Blue", "Black"],
+      "review": {
+        "rating": 4.4,
+        "total_reviews": 310
+      }
+    }
+  ]
+  
