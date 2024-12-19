@@ -1,0 +1,246 @@
+[
+  {
+    "id": "DRN002",
+    "company": "Parrot",
+    "name": "Parrot Anafi",
+    "image": "/img/DroneImage/drone2.jpeg",
+    "description": "A lightweight and portable drone with a 4K HDR camera and 25 minutes of flight time.",
+    "price": 75000,
+    "salePrice": 70000,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 1100
+    },
+    "product_info": {
+      "camera": "4K HDR Camera",
+      "flight_time": "25 minutes",
+      "range": "4 km",
+      "weight": "320g"
+    }
+  },
+
+  {
+    "id": "DRN010",
+    "company": "Autel Robotics",
+    "name": "Autel Dragonfish Lite",
+    "image": "/img/DroneImage/drone10.jpeg",
+    "description": "A cutting-edge VTOL drone with a 4K camera and a massive 120-minute flight time.",
+    "price": 1250000,
+    "salePrice": 1250000,
+    "sale": false,
+    "review": {
+      "rating": 5.0,
+      "total_reviews": 100
+    },
+    "product_info": {
+      "camera": "4K Camera",
+      "flight_time": "120 minutes",
+      "range": "30 km",
+      "weight": "4500g"
+    }
+  },
+  {
+    "id": "DRN003",
+    "company": "Autel Robotics",
+    "name": "Autel EVO Lite+",
+    "image": "/img/DroneImage/drone3.jpeg",
+    "description": "A versatile drone with a 1-inch CMOS sensor and excellent low-light performance.",
+    "price": 115000,
+    "salePrice": 115000,
+    "sale": false,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 950
+    },
+    "product_info": {
+      "camera": "50MP 1-Inch CMOS Sensor",
+      "flight_time": "40 minutes",
+      "range": "12 km",
+      "weight": "835g"
+    }
+  },
+  {
+    "id": "DRN001",
+    "company": "DJI",
+    "name": "DJI Mavic 3",
+    "image": "/img/DroneImage/drone1.jpeg",
+    "description": "A professional-grade drone with a dual-camera system and 46 minutes of flight time.",
+    "price": 192000,
+    "salePrice": 184000,
+    "sale": true,
+    "review": {
+      "rating": 4.9,
+      "total_reviews": 1500
+    },
+    "product_info": {
+      "camera": "20MP Hasselblad Camera",
+      "flight_time": "46 minutes",
+      "range": "15 km",
+      "weight": "895g"
+    }
+  },
+  {
+    "id": "DRN009",
+    "company": "DJI",
+    "name": "DJI Air 2S",
+    "image": "/img/DroneImage/drone9.jpeg",
+    "description": "A lightweight drone with a 1-inch sensor for professional-grade photos and videos.",
+    "price": 98000,
+    "salePrice": 94000,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 1300
+    },
+    "product_info": {
+      "camera": "20MP 1-Inch Sensor",
+      "flight_time": "31 minutes",
+      "range": "12 km",
+      "weight": "595g"
+    }
+  },
+  {
+    "id": "DRN008",
+    "company": "Skydio",
+    "name": "Skydio X2",
+    "image": "/img/DroneImage/drone8.jpeg",
+    "description": "An industrial-grade drone with thermal imaging and robust AI-powered navigation.",
+    "price": 350000,
+    "salePrice": 350000,
+    "sale": false,
+    "review": {
+      "rating": 4.9,
+      "total_reviews": 500
+    },
+    "product_info": {
+      "camera": "4K HDR and Thermal Imaging",
+      "flight_time": "35 minutes",
+      "range": "6 km",
+      "weight": "1325g"
+    }
+  },
+  {
+    "id": "DRN002",
+    "company": "Parrot",
+    "name": "Parrot Anafi",
+    "image": "/img/DroneImage/drone2.jpeg",
+    "description": "A lightweight and portable drone with a 4K HDR camera and 25 minutes of flight time.",
+    "price": 75000,
+    "salePrice": 70000,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 1100
+    },
+    "product_info": {
+      "camera": "4K HDR Camera",
+      "flight_time": "25 minutes",
+      "range": "4 km",
+      "weight": "320g"
+    }
+  },
+  {
+    "id": "DRN003",
+    "company": "Autel Robotics",
+    "name": "Autel EVO Lite+",
+    "image": "/img/DroneImage/drone3.jpeg",
+    "description": "A versatile drone with a 1-inch CMOS sensor and excellent low-light performance.",
+    "price": 115000,
+    "salePrice": 115000,
+    "sale": false,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 950
+    },
+    "product_info": {
+      "camera": "50MP 1-Inch CMOS Sensor",
+      "flight_time": "40 minutes",
+      "range": "12 km",
+      "weight": "835g"
+    }
+  },
+  {
+    "id": "DRN004",
+    "company": "Skydio",
+    "name": "Skydio 2+",
+    "image": "/img/DroneImage/drone4.jpeg",
+    "description": "An advanced autonomous drone with AI-powered obstacle avoidance and cinematic shots.",
+    "price": 102000,
+    "salePrice": 95000,
+    "sale": true,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 800
+    },
+    "product_info": {
+      "camera": "12MP 4K Camera",
+      "flight_time": "27 minutes",
+      "range": "6 km",
+      "weight": "775g"
+    }
+  },
+  {
+    "id": "DRN005",
+    "company": "DJI",
+    "name": "DJI Mini 3 Pro",
+    "image": "/img/DroneImage/drone5.webp",
+    "description": "A compact and powerful drone with a 4K camera and a 34-minute flight time.",
+    "price": 72000,
+    "salePrice": 72000,
+    "sale": false,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 1200
+    },
+    "product_info": {
+      "camera": "48MP 4K Camera",
+      "flight_time": "34 minutes",
+      "range": "12 km",
+      "weight": "249g"
+    }
+  },
+  {
+    "id": "DRN006",
+    "company": "Parrot",
+    "name": "Parrot Bebop 2",
+    "image": "/img/DroneImage/drone7.jpeg",
+    "description": "A durable drone with a wide-angle camera and 25 minutes of flight time.",
+    "price": 60000,
+    "salePrice": 55000,
+    "sale": true,
+    "review": {
+      "rating": 4.5,
+      "total_reviews": 700
+    },
+    "product_info": {
+      "camera": "14MP Full HD Camera",
+      "flight_time": "25 minutes",
+      "range": "2 km",
+      "weight": "500g"
+    }
+  },
+  {
+    "id": "DRN007",
+    "company": "Autel Robotics",
+    "name": "Autel EVO Nano+",
+    "image": "/img/DroneImage/drone6.jpeg",
+    "description": "A compact drone with a 50MP camera and 28 minutes of flight time.",
+    "price": 85000,
+    "salePrice": 80000,
+    "sale": true,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 600
+    },
+    "product_info": {
+      "camera": "50MP Camera",
+      "flight_time": "28 minutes",
+      "range": "10 km",
+      "weight": "249g"
+    }
+  }
+
+
+
+]

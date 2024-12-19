@@ -19,7 +19,7 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
 
 
   useEffect(() => {
-    fetch(`/${category}.json`)
+    fetch(`/Data/${category}.json`)
       .then((response) => response.json())
       .then((data) => setProducts(data));
       setFilteredProducts(products);
@@ -129,7 +129,7 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
             </li>
             <li
               className="hover:text-purple-300 cursor-pointer hover:underline list-none"
-              onClick={() => handleCategoryClick("Headphones")}
+              onClick={() => handleCategoryClick("HeadPhones")}
             >
               Headphones
             </li>
@@ -151,12 +151,7 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
             >
               Wearable Tech
             </li>
-            <li
-              className="hover:text-purple-300 cursor-pointer hover:underline list-none"
-              onClick={() => handleCategoryClick("WearableTech")}
-            >
-              Wearable Tech
-            </li>
+           
 
             <a href="#" className="hover:underline">
               Sale
@@ -204,7 +199,7 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
                 </li>
                 <li
                   className="hover:text-purple-300 cursor-pointer hover:underline list-none"
-                  onClick={() => handleCategoryClick("Headphones")}
+                  onClick={() => handleCategoryClick("HeadPhones")}
                 >
                   Headphones
                 </li>
@@ -226,12 +221,7 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
                 >
                   Wearable Tech
                 </li>
-                <li
-                  className="hover:text-purple-300 cursor-pointer hover:underline list-none"
-                  onClick={() => handleCategoryClick("WearableTech")}
-                >
-                  Wearable Tech
-                </li>
+              
               </ul>
               <h2 className="text-2xl font-bold mt-8 mb-4">Filter by</h2>
               {/* <div className="mb-4">
@@ -310,58 +300,63 @@ const [searchQuery, setSearchQuery] = useState(""); // State for search query
                 {filteredProducts.length}
                 {category.length}
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-                {products.map((product) => (
-                  <div
-                    key={product.id} 
-                    className="bg-white p-4 shadow rounded relative overflow-hidden inline-block"
-                  >
-                    {product.sale && (
-                      <span className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
-                        SALE
-                      </span>
-                    )}
-                    <img
-                      src={product.image}
-                      alt={product.name}
-                      onClick={() => handleClick(product)}
-                      className="transition-transform duration-300 ease-in-out transform hover:scale-110 mb-4"
-                    />{" "}
-                    <h3 className="text-lg font-bold">{product.name}</h3>
-                    {/* <h3 className="text-lg font-bold">{product.description}</h3> */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-4">
+  {products.map((product) => (
+    <div
+      key={product.id}
+      className="bg-white p-4 shadow rounded relative overflow-hidden transition-transform duration-300 hover:scale-105"
+    >
+      {/* Sale Badge */}
+      {product.sale && (
+        <span className="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+          SALE
+        </span>
+      )}
+      
+      {/* Product Image */}
+      <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg">
+        <img
+          src={product.image}
+          alt={product.name}
+          onClick={() => handleClick(product)}
+          className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+        />
+      </div>
+      
+      {/* Product Details */}
+      <h3 className="text-lg font-bold mt-4">{product.name}</h3>
+      <p className="text-sm text-gray-600">{product.description}</p>
+      
+      {product.sale ? (
+        <>
+          <p className="line-through text-gray-500">₹{product.price}</p>
+          <p className="text-purple-600 font-bold">₹{product.salePrice}.00</p>
+        </>
+      ) : (
+        <p className="text-purple-600 font-bold">₹{product.price}.00</p>
+      )}
 
-                    {product.sale ? (
-                      <>
-                        <p className="line-through text-gray-500">
-                          ${product.price}
-                        </p>
-                        <p className="text-purple-600">
-                          ${product.salePrice}.00
-                        </p>
-                      </>
-                    ) : (
-                      <p className="text-purple-600">${product.price}.00</p>
-                    )}
+      {/* Wishlist and Add to Cart */}
+      <div className="flex items-center justify-between mt-4">
+        {/* Wishlist Icon */}
+        <i
+          className={`fas fa-heart cursor-pointer ${
+            wishlist.find((item) => item.id === product.id) ? 'text-red-600' : 'text-gray-400'
+          }`}
+          onClick={() => toggleWishlist(product)}
+        ></i>
+        {/* Add to Cart Button */}
+        <button
+          className="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition"
+          onClick={() => addToCart(product)}
+        >
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  ))}
+</div>
 
-<div className="flex items-center justify-between mt-4">
-              {/* Wishlist Icon */}
-              <i
-                className={`fas fa-heart cursor-pointer ${
-                  wishlist.find((item) => item.id === product.id) ? 'text-red-600' : 'text-gray-400'
-                }`}
-                onClick={() => toggleWishlist(product)}
-              ></i>
-              {/* Add to Cart Button */}
-              <button
-                className="bg-purple-600 text-white px-4 py-2 rounded-full"
-                onClick={() => addToCart(product)}
-              >
-                Add to Cart
-              </button>
-            </div>
-                  </div>
-                ))}
-              </div>
             </section>
           </div>
         </main>

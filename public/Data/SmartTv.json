@@ -1,0 +1,192 @@
+[
+  {
+    "id": "TV001",
+    "company": "Sony",
+    "name": "Sony Bravia 4K Ultra HD Smart TV",
+    "image": "/img/SmartTvimage/smarttv1.jpeg",
+    "description": "A 55-inch 4K Ultra HD Smart TV with HDR, Google TV support, and excellent picture quality.",
+    "price": 84999,
+    "salePrice": 74999,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 3200
+    },
+    "product_info": {
+      "screen_size": "55 inches",
+      "resolution": "4K UHD",
+      "smart_features": true
+    }
+  },
+  {
+    "id": "TV002",
+    "company": "LG",
+    "name": "LG OLED AI ThinQ Smart TV",
+    "image": "/img/SmartTvimage/smarttv4.jpeg",
+    "description": "A 65-inch OLED Smart TV with self-lit pixels and AI-powered sound.",
+    "price": 184999,
+    "salePrice": 169999,
+    "sale": true,
+    "review": {
+      "rating": 4.9,
+      "total_reviews": 4100
+    },
+    "product_info": {
+      "screen_size": "65 inches",
+      "resolution": "4K UHD",
+      "smart_features": true
+    }
+  },
+  {
+    "id": "TV003",
+    "company": "Samsung",
+    "name": "Samsung QLED Smart TV",
+    "image": "/img/SmartTvimage/smarttv5.webp",
+    "description": "A 50-inch QLED Smart TV with Quantum Dot technology and advanced upscaling.",
+    "price": 94999,
+    "salePrice": 84999,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 2900
+    },
+    "product_info": {
+      "screen_size": "50 inches",
+      "resolution": "4K UHD",
+      "smart_features": true
+    }
+  },
+  {
+    "id": "TV004",
+    "company": "Xiaomi",
+    "name": "Xiaomi Mi TV 5X",
+    "image": "/img/SmartTvimage/smarttv6.webp",
+    "description": "A 55-inch Smart TV with Dolby Vision, DTS-HD audio, and PatchWall interface.",
+    "price": 44999,
+    "salePrice": 39999,
+    "sale": true,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 5000
+    },
+    "product_info": {
+      "screen_size": "55 inches",
+      "resolution": "4K UHD",
+      "smart_features": true
+    }
+  },
+  {
+    "id": "TV005",
+    "company": "Samsung",
+    "name": "Samsung Crystal 4K UHD Smart TV",
+    "image": "/img/SmartTvimage/smarttv7.webp",
+    "description": "A 43-inch Smart TV with Crystal 4K UHD resolution and advanced contrast enhancer.",
+    "price": 37999,
+    "salePrice": 34999,
+    "sale": true,
+    "review": {
+      "rating": 4.5,
+      "total_reviews": 2200
+    },
+    "product_info": {
+      "screen_size": "43 inches",
+      "resolution": "4K UHD",
+      "smart_features": true
+    }
+  },
+  {
+    "id": "TV006",
+    "company": "LG",
+    "name": "LG NanoCell Smart TV",
+    "image": "/img/SmartTvimage/smarttv8.webp",
+    "description": "A 50-inch Smart TV with NanoCell technology for vibrant colors and HDR support.",
+    "price": 84999,
+    "salePrice": 84999,
+    "sale": false,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 3100
+    },
+    "product_info": {
+      "screen_size": "50 inches",
+      "resolution": "4K UHD",
+      "smart_features": true
+    }
+  },
+  {
+    "id": "TV007",
+    "company": "Sony",
+    "name": "Sony 32-inch HD Ready Smart TV",
+    "image": "/img/SmartTvimage/smarttv2.jpeg",
+    "description": "A compact 32-inch Smart TV with excellent sound and HDR support.",
+    "price": 22999,
+    "salePrice": 22999,
+    "sale": false,
+    "review": {
+      "rating": 4.4,
+      "total_reviews": 1800
+    },
+    "product_info": {
+      "screen_size": "32 inches",
+      "resolution": "HD Ready",
+      "smart_features": true
+    }
+  },
+  {
+    "id": "TV008",
+    "company": "Xiaomi",
+    "name": "Xiaomi Redmi Smart TV 4K",
+    "image": "/img/SmartTvimage/smarttv9.webp",
+    "description": "A 43-inch 4K UHD Smart TV with vivid colors and voice assistant integration.",
+    "price": 28999,
+    "salePrice": 28999,
+    "sale": false,
+    "review": {
+      "rating": 4.5,
+      "total_reviews": 2600
+    },
+    "product_info": {
+      "screen_size": "43 inches",
+      "resolution": "4K UHD",
+      "smart_features": true
+    }
+  },
+  {
+    "id": "TV009",
+    "company": "Samsung",
+    "name": "Samsung Serif QLED Smart TV",
+    "image": "/img/SmartTvimage/samrttv10.jpeg",
+    "description": "A 55-inch Smart TV with an artistic design and immersive picture quality.",
+    "price": 119999,
+    "salePrice": 119999,
+    "sale": false,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 1500
+    },
+    "product_info": {
+      "screen_size": "55 inches",
+      "resolution": "4K UHD",
+      "smart_features": true
+    }
+  },
+  {
+    "id": "TV010",
+    "company": "LG",
+    "name": "LG UHD Smart TV with AI ThinQ",
+    "image": "/img/SmartTvimage/smarttv11.jpg",
+    "description": "A 43-inch Smart TV with AI-driven upscaling and vivid HDR.",
+    "price": 36999,
+    "salePrice": 36999,
+    "sale": false,
+    "review": {
+      "rating": 4.5,
+      "total_reviews": 2800
+    },
+    "product_info": {
+      "screen_size": "43 inches",
+      "resolution": "4K UHD",
+      "smart_features": true
+    }
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "id": "TAB001",
+    "company": "Samsung",
+    "name": "Samsung Galaxy Tab S9",
+    "image": "/img/TabletImage/tab1.jpeg",
+    "description": "A high-performance tablet with a 12.4-inch AMOLED display and S Pen support.",
+    "price": 79999,
+    "salePrice": 72999,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 1200
+    },
+    "product_info": {
+      "screen_size": "12.4 inches",
+      "processor": "Snapdragon 8 Gen 2",
+      "battery_life": "14 hours",
+      "storage": "256GB"
+    }
+  },
+  {
+    "id": "TAB002",
+    "company": "Apple",
+    "name": "Apple iPad Pro 12.9",
+    "image": "/img/TabletImage/tab11.jpeg",
+    "description": "A premium 12.9-inch iPad Pro with the M2 chip and Liquid Retina XDR display.",
+    "price": 119999,
+    "salePrice": 109999,
+    "sale": true,
+    "review": {
+      "rating": 4.9,
+      "total_reviews": 2000
+    },
+    "product_info": {
+      "screen_size": "12.9 inches",
+      "processor": "M2 Chip",
+      "battery_life": "10 hours",
+      "storage": "512GB"
+    }
+  },
+
+  {
+    "id": "TAB004",
+    "company": "Xiaomi",
+    "name": "Xiaomi Pad 6",
+    "image": "/img/TabletImage/tab4.jpeg",
+    "description": "An affordable 11-inch tablet with 2.8K resolution and a powerful Snapdragon chip.",
+    "price": 27999,
+    "salePrice": 24999,
+    "sale": true,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 900
+    },
+    "product_info": {
+      "screen_size": "11 inches",
+      "processor": "Snapdragon 870",
+      "battery_life": "13 hours",
+      "storage": "128GB"
+    }
+  },
+  {
+    "id": "TAB005",
+    "company": "Samsung",
+    "name": "Samsung Galaxy Tab A8",
+    "image": "/img/TabletImage/tab3.jpeg",
+    "description": "A budget-friendly 10.5-inch tablet with quad speakers and a large display.",
+    "price": 18999,
+    "salePrice": 16999,
+    "sale": true,
+    "review": {
+      "rating": 4.4,
+      "total_reviews": 1500
+    },
+    "product_info": {
+      "screen_size": "10.5 inches",
+      "processor": "Unisoc T618",
+      "battery_life": "12 hours",
+      "storage": "64GB"
+    }
+  },
+  {
+    "id": "TAB006",
+    "company": "Apple",
+    "name": "Apple iPad 10th Gen",
+    "image": "/img/TabletImage/tab10.jpeg",
+    "description": "A 10.9-inch iPad with a Liquid Retina display and A14 Bionic chip.",
+    "price": 49999,
+    "salePrice": 49999,
+    "sale": false,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 1800
+    },
+    "product_info": {
+      "screen_size": "10.9 inches",
+      "processor": "A14 Bionic",
+      "battery_life": "10 hours",
+      "storage": "256GB"
+    }
+  },
+
+  {
+    "id": "TAB007",
+    "company": "OnePlus",
+    "name": "OnePlus Pad Mini",
+    "image": "/img/TabletImage/tab7.jpeg",
+    "description": "A compact 8.4-inch tablet designed for portability and multimedia.",
+    "price": 15999,
+    "salePrice": 15999,
+    "sale": false,
+    "review": {
+      "rating": 4.5,
+      "total_reviews": 600
+    },
+    "product_info": {
+      "screen_size": "8.4 inches",
+      "processor": "MediaTek Helio G80",
+      "battery_life": "10 hours",
+      "storage": "64GB"
+    }
+  },
+  {
+    "id": "TAB008",
+    "company": "Xiaomi",
+    "name": "Xiaomi Pad 5",
+    "image": "/img/TabletImage/tab8.webp",
+    "description": "A powerful 11-inch tablet with a 120Hz display and Snapdragon performance.",
+    "price": 26999,
+    "salePrice": 26999,
+    "sale": false,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 1000
+    },
+    "product_info": {
+      "screen_size": "11 inches",
+      "processor": "Snapdragon 860",
+      "battery_life": "13 hours",
+      "storage": "128GB"
+    }
+  },
+  {
+    "id": "TAB003",
+    "company": "OnePlus",
+    "name": "OnePlus Pad",
+    "image": "/img/TabletImage/tab6.jpeg",
+    "description": "A sleek 11.61-inch tablet with a 144Hz display and Dolby Vision support.",
+    "price": 37999,
+    "salePrice": 34999,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 1500
+    },
+    "product_info": {
+      "screen_size": "11.61 inches",
+      "processor": "Dimensity 9000",
+      "battery_life": "12 hours",
+      "storage": "256GB"
+    }
+  },
+  {
+    "id": "TAB009",
+    "company": "Samsung",
+    "name": "Samsung Galaxy Tab S7 FE",
+    "image": "/img/TabletImage/tab7.webp",
+    "description": "A 12.4-inch tablet with S Pen included and smooth multitasking features.",
+    "price": 47999,
+    "salePrice": 47999,
+    "sale": false,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 1400
+    },
+    "product_info": {
+      "screen_size": "12.4 inches",
+      "processor": "Snapdragon 750G",
+      "battery_life": "13 hours",
+      "storage": "128GB"
+    }
+  },
+  {
+    "id": "TAB010",
+    "company": "Apple",
+    "name": "Apple iPad Air 5th Gen",
+    "image": "/img/TabletImage/tab6.webp",
+    "description": "A lightweight 10.9-inch iPad with the M1 chip and vibrant Liquid Retina display.",
+    "price": 77999,
+    "salePrice": 77999,
+    "sale": false,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 2100
+    },
+    "product_info": {
+      "screen_size": "10.9 inches",
+      "processor": "M1 Chip",
+      "battery_life": "10 hours",
+      "storage": "256GB"
+    }
+  }
+]

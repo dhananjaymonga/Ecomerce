@@ -1,0 +1,203 @@
+[
+    {
+      "id": "HAB001",
+      "company": "Sony",
+      "name": "Sony WH-1000XM5",
+      "image": "sony_wh_1000xm5.jpg",
+      "description": "Industry-leading noise-canceling headphones with 30 hours of battery life.",
+      "price": 29999,
+      "salePrice": 27999,
+      "sale": true,
+      "review": {
+        "rating": 4.8,
+        "total_reviews": 3200
+      },
+      "product_info": {
+        "type": "Over-ear headphones",
+        "noise_cancellation": "Active",
+        "battery_life": "30 hours",
+        "connectivity": "Bluetooth 5.2"
+      }
+    },
+    {
+      "id": "HAB002",
+      "company": "Apple",
+      "name": "Apple AirPods Pro (2nd Gen)",
+      "image": "apple_airpods_pro_2nd_gen.jpg",
+      "description": "Premium wireless earbuds with improved active noise cancellation and MagSafe charging.",
+      "price": 24999,
+      "salePrice": 24999,
+      "sale": false,
+      "review": {
+        "rating": 4.9,
+        "total_reviews": 5000
+      },
+      "product_info": {
+        "type": "True wireless earbuds",
+        "noise_cancellation": "Active",
+        "battery_life": "6 hours (buds), 30 hours (with case)",
+        "connectivity": "Bluetooth 5.3"
+      }
+    },
+    {
+      "id": "HAB003",
+      "company": "Bose",
+      "name": "Bose QuietComfort 45",
+      "image": "bose_quietcomfort_45.jpg",
+      "description": "Comfortable over-ear headphones with world-class noise cancellation and balanced sound.",
+      "price": 32999,
+      "salePrice": 30999,
+      "sale": true,
+      "review": {
+        "rating": 4.7,
+        "total_reviews": 2500
+      },
+      "product_info": {
+        "type": "Over-ear headphones",
+        "noise_cancellation": "Active",
+        "battery_life": "24 hours",
+        "connectivity": "Bluetooth 5.1"
+      }
+    },
+    {
+      "id": "HAB004",
+      "company": "JBL",
+      "name": "JBL Live Pro+ TWS",
+      "image": "jbl_live_pro_plus_tws.jpg",
+      "description": "True wireless earbuds with JBL Signature Sound and adaptive noise cancellation.",
+      "price": 11999,
+      "salePrice": 9999,
+      "sale": true,
+      "review": {
+        "rating": 4.5,
+        "total_reviews": 1900
+      },
+      "product_info": {
+        "type": "True wireless earbuds",
+        "noise_cancellation": "Adaptive",
+        "battery_life": "7 hours (buds), 28 hours (with case)",
+        "connectivity": "Bluetooth 5.0"
+      }
+    },
+    {
+      "id": "HAB005",
+      "company": "OnePlus",
+      "name": "OnePlus Buds Pro 2",
+      "image": "oneplus_buds_pro_2.jpg",
+      "description": "Premium earbuds with Hi-Res Audio, active noise cancellation, and fast charging.",
+      "price": 10999,
+      "salePrice": 10999,
+      "sale": false,
+      "review": {
+        "rating": 4.6,
+        "total_reviews": 1500
+      },
+      "product_info": {
+        "type": "True wireless earbuds",
+        "noise_cancellation": "Active",
+        "battery_life": "6 hours (buds), 39 hours (with case)",
+        "connectivity": "Bluetooth 5.2"
+      }
+    },
+    {
+      "id": "HAB006",
+      "company": "Sony",
+      "name": "Sony WF-1000XM4",
+      "image": "sony_wf_1000xm4.jpg",
+      "description": "High-end wireless earbuds with industry-leading noise cancellation and immersive sound.",
+      "price": 19999,
+      "salePrice": 17999,
+      "sale": true,
+      "review": {
+        "rating": 4.8,
+        "total_reviews": 3100
+      },
+      "product_info": {
+        "type": "True wireless earbuds",
+        "noise_cancellation": "Active",
+        "battery_life": "8 hours (buds), 24 hours (with case)",
+        "connectivity": "Bluetooth 5.2"
+      }
+    },
+    {
+      "id": "HAB007",
+      "company": "Apple",
+      "name": "Apple AirPods Max",
+      "image": "apple_airpods_max.jpg",
+      "description": "Over-ear headphones with stunning design, Spatial Audio, and top-notch sound quality.",
+      "price": 59999,
+      "salePrice": 57999,
+      "sale": true,
+      "review": {
+        "rating": 4.8,
+        "total_reviews": 2200
+      },
+      "product_info": {
+        "type": "Over-ear headphones",
+        "noise_cancellation": "Active",
+        "battery_life": "20 hours",
+        "connectivity": "Bluetooth 5.0"
+      }
+    },
+    {
+      "id": "HAB008",
+      "company": "JBL",
+      "name": "JBL Tune 760NC",
+      "image": "jbl_tune_760nc.jpg",
+      "description": "Affordable noise-canceling over-ear headphones with JBL Pure Bass sound.",
+      "price": 7999,
+      "salePrice": 7499,
+      "sale": true,
+      "review": {
+        "rating": 4.4,
+        "total_reviews": 1200
+      },
+      "product_info": {
+        "type": "Over-ear headphones",
+        "noise_cancellation": "Active",
+        "battery_life": "35 hours",
+        "connectivity": "Bluetooth 5.0"
+      }
+    },
+    {
+      "id": "HAB009",
+      "company": "OnePlus",
+      "name": "OnePlus Nord Buds 2",
+      "image": "/img/HeadPhones/airbuds9.jpeg",
+      "description": "Budget-friendly earbuds with punchy bass and AI noise reduction.",
+      "price": 2799,
+      "salePrice": 2499,
+      "sale": true,
+      "review": {
+        "rating": 4.3,
+        "total_reviews": 800
+      },
+      "product_info": {
+        "type": "True wireless earbuds",
+        "noise_cancellation": "Passive",
+        "battery_life": "7 hours (buds), 36 hours (with case)",
+        "connectivity": "Bluetooth 5.3"
+      }
+    },
+    {
+      "id": "HAB010",
+      "company": "Bose",
+      "name": "Bose Sport Earbuds",
+      "image": "/img/HeadPhones/airbuds10.webp",
+      "description": "Durable and sweat-resistant earbuds designed for active lifestyles.",
+      "price": 15999,
+      "salePrice": 15999,
+      "sale": false,
+      "review": {
+        "rating": 4.6,
+        "total_reviews": 1400
+      },
+      "product_info": {
+        "type": "True wireless earbuds",
+        "noise_cancellation": "Passive",
+        "battery_life": "5 hours (buds), 15 hours (with case)",
+        "connectivity": "Bluetooth 5.1"
+      }
+    }
+  ]
+  

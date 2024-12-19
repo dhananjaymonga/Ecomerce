@@ -1,0 +1,212 @@
+[
+  {
+    "id": "CMP001",
+    "company": "Dell",
+    "name": "Dell XPS 13",
+    "image": "dell_xps_13.jpg",
+    "description": "A premium ultrabook with a stunning InfinityEdge display and high performance.",
+    "price": 120000,
+    "salePrice": 115000,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 2500
+    },
+    "product_info": {
+      "processor": "Intel Core i7-1360P",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "13.4-inch FHD+",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "id": "CMP002",
+    "company": "HP",
+    "name": "HP Spectre x360",
+    "image": "hp_spectre_x360.jpg",
+    "description": "A sleek 2-in-1 convertible laptop with a vibrant OLED touchscreen.",
+    "price": 135000,
+    "salePrice": 130000,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 2200
+    },
+    "product_info": {
+      "processor": "Intel Core i7-1255U",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "display": "13.5-inch 3K OLED",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "id": "CMP003",
+    "company": "Apple",
+    "name": "MacBook Pro 14-inch (M2 Pro)",
+    "image": "macbook_pro_14_m2.jpg",
+    "description": "A powerhouse laptop with the Apple M2 Pro chip and exceptional battery life.",
+    "price": 194900,
+    "salePrice": 194900,
+    "sale": false,
+    "review": {
+      "rating": 4.9,
+      "total_reviews": 3000
+    },
+    "product_info": {
+      "processor": "Apple M2 Pro",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "14.2-inch Liquid Retina XDR",
+      "os": "macOS Ventura"
+    }
+  },
+  {
+    "id": "CMP004",
+    "company": "Lenovo",
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "image": "lenovo_thinkpad_x1_carbon.jpg",
+    "description": "A business-class laptop with a durable design and exceptional security features.",
+    "price": 140000,
+    "salePrice": 135000,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 1900
+    },
+    "product_info": {
+      "processor": "Intel Core i7-1270P",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "display": "14-inch WQHD+",
+      "os": "Windows 11 Pro"
+    }
+  },
+  {
+    "id": "CMP005",
+    "company": "Asus",
+    "name": "Asus ROG Zephyrus G14",
+    "image": "asus_rog_zephyrus_g14.jpg",
+    "description": "A powerful gaming laptop with AMD Ryzen 9 and a high refresh rate display.",
+    "price": 145000,
+    "salePrice": 140000,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 1800
+    },
+    "product_info": {
+      "processor": "AMD Ryzen 9 6900HS",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "display": "14-inch QHD 165Hz",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "id": "CMP006",
+    "company": "Dell",
+    "name": "Dell Inspiron 15",
+    "image": "dell_inspiron_15.jpg",
+    "description": "A reliable everyday laptop with solid performance and great battery life.",
+    "price": 65000,
+    "salePrice": 63000,
+    "sale": true,
+    "review": {
+      "rating": 4.5,
+      "total_reviews": 1500
+    },
+    "product_info": {
+      "processor": "Intel Core i5-1235U",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "display": "15.6-inch FHD",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "id": "CMP007",
+    "company": "HP",
+    "name": "HP Pavilion Gaming 15",
+    "image": "hp_pavilion_gaming_15.jpg",
+    "description": "A budget-friendly gaming laptop with dedicated NVIDIA graphics.",
+    "price": 78000,
+    "salePrice": 78000,
+    "sale": false,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 1700
+    },
+    "product_info": {
+      "processor": "AMD Ryzen 5 5600H",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "display": "15.6-inch FHD 144Hz",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "id": "CMP008",
+    "company": "Apple",
+    "name": "MacBook Air (M2)",
+    "image": "macbook_air_m2.jpg",
+    "description": "An ultraportable laptop with the Apple M2 chip and an all-day battery life.",
+    "price": 124900,
+    "salePrice": 119900,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 2800
+    },
+    "product_info": {
+      "processor": "Apple M2",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "13.6-inch Liquid Retina",
+      "os": "macOS Ventura"
+    }
+  },
+  {
+    "id": "CMP009",
+    "company": "Lenovo",
+    "name": "Lenovo IdeaPad 3",
+    "image": "lenovo_ideapad_3.jpg",
+    "description": "A budget-friendly laptop with reliable performance for daily tasks.",
+    "price": 45000,
+    "salePrice": 43000,
+    "sale": true,
+    "review": {
+      "rating": 4.3,
+      "total_reviews": 1300
+    },
+    "product_info": {
+      "processor": "Intel Core i3-1215U",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "display": "15.6-inch FHD",
+      "os": "Windows 11"
+    }
+  },
+  {
+    "id": "CMP010",
+    "company": "Asus",
+    "name": "Asus VivoBook S15",
+    "image": "asus_vivobook_s15.jpg",
+    "description": "A stylish and lightweight laptop with excellent performance and an OLED display.",
+    "price": 90000,
+    "salePrice": 85000,
+    "sale": true,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 1600
+    },
+    "product_info": {
+      "processor": "Intel Core i7-12700H",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "15.6-inch FHD OLED",
+      "os": "Windows 11"
+    }
+  }
+]

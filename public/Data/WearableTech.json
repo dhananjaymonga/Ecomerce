@@ -1,0 +1,194 @@
+[
+    {
+      "id": "WT001",
+      "company": "FitTech",
+      "name": "Smart Fitness Tracker",
+      "image": "/img/ImagewearableTech/watch1.jpeg",
+      "description": "A smart fitness tracker with heart rate monitoring, sleep tracking, and step counting.",
+      "price": 99.99,
+      "salePrice": 79.99,
+      "sale": true,
+      "review": {
+        "rating": 4.5,
+        "total_reviews": 1200
+      },
+      "product_info": {
+        "color": "Black",
+        "battery_life": "7 days",
+        "water_resistant": true
+      }
+    },
+    {
+      "id": "WT002",
+      "company": "TechWear",
+      "name": "Smartwatch 2.0",
+      "image": "/img/ImagewearableTech/watch2.jpeg",
+    "description": "A stylish smartwatch with customizable watch faces and fitness tracking capabilities.",
+      "price": 199.99,
+      "salePrice": 159.99,
+      "sale": true,
+      "review": {
+        "rating": 4.7,
+        "total_reviews": 5000
+      },
+      "product_info": {
+        "color": "Silver",
+        "battery_life": "5 days",
+        "water_resistant": true
+      }
+    },
+
+    {
+      "id": "WT003",  
+      "company": "HealthTrack",
+      "name": "Sleep Monitor Band",
+      "image": "/img/ImagewearableTech/watch4.png",
+            "description": "Wearable band that tracks your sleep patterns and offers personalized recommendations.",
+      "price": 59.99,
+      "salePrice": 49.99,
+      "sale": true,
+      "review": {
+        "rating": 4.3,
+        "total_reviews": 890
+      },
+      "product_info": {
+        "color": "Blue",
+        "battery_life": "10 days",
+        "water_resistant": false
+      }
+    },
+    {
+      "id": "WT004",
+      "company": "SportGear",
+      "name": "Activity Tracker Pro",
+      "image": "/img/ImagewearableTech/watch3.png",
+            "description": "Advanced activity tracker designed for athletes with GPS, heart rate monitoring, and workout modes.",
+      "price": 129.99,
+      "salePrice": 109.99,
+      "sale": true,
+      "review": {
+        "rating": 4.6,
+        "total_reviews": 1500
+      },
+      "product_info": {
+        "color": "Red",
+        "battery_life": "14 days",
+        "water_resistant": true
+      }
+    },
+    {
+      "id": "WT005",
+      "company": "PulseTech",
+      "name": "Smart Health Watch",
+      "image": "/img/ImagewearableTech/watch6.jpeg",
+            "description": "Monitor your heart rate, blood pressure, and calories with this all-in-one health smartwatch.",
+      "price": 249.99,
+      "salePrice": 199.99,
+      "sale": true,
+      "review": {
+        "rating": 4.8,
+        "total_reviews": 2300
+      },
+      "product_info": {
+        "color": "Gold",
+        "battery_life": "3 days",
+        "water_resistant": false
+      }
+    },
+    {
+      "id": "WT006",
+      "company": "VibeTech",
+      "name": "Vibe Sleep Headband",
+      "image": "/img/ImagewearableTech/watch5.jpeg",
+            "description": "A headband with built-in speakers for listening to calming music or white noise while you sleep.",
+      "price": 49.99,
+      "salePrice": 39.99,
+      "sale": false,
+      "review": {
+        "rating": 4.2,
+        "total_reviews": 400
+      },
+      "product_info": {
+        "color": "Gray",
+        "battery_life": "8 hours",
+        "water_resistant": false
+      }
+    },
+    {
+      "id": "WT007",
+      "company": "FashionTech",
+      "name": "Smart Ring 3.0",
+      "image": "/img/ImagewearableTech/watch7.jpeg",      "description": "A sleek, minimalistic smart ring that tracks your steps, calories, and syncs with your phone.",
+
+      "price": 149.99,
+      "salePrice": 119.99,
+      "sale": false,
+      "review": {
+        "rating": 4.1,
+        "total_reviews": 650
+      },
+      "product_info": {
+        "color": "Black",
+        "battery_life": "2 days",
+        "water_resistant": true
+      }
+    },
+    {
+      "id": "WT008",
+      "company": "SmartFit",
+      "name": "Wearable Posture Corrector",
+  "image": "/img/ImagewearableTech/watch8.jpeg",     
+   "description": "A wearable device that vibrates when you slouch, helping you improve posture throughout the day.",
+      "price": 89.99,
+      "salePrice": 69.99,
+      "sale": false,
+      "review": {
+        "rating": 4.4,
+        "total_reviews": 120
+      },
+      "product_info": {
+        "color": "White",
+        "battery_life": "3 days",
+        "water_resistant": false
+      }
+    },
+    {
+      "id": "WT009",
+      "company": "TrackMaster",
+      "name": "GPS Running Watch",
+      "image": "/img/ImagewearableTech/watch9.jpeg",
+         "description": "A GPS-enabled running watch with real-time pace and distance tracking, heart rate monitor, and more.",
+      "price": 179.99,
+      "salePrice": 139.99,
+      "sale": false,
+      "review": {
+        "rating": 4.5,
+        "total_reviews": 1100
+      },
+      "product_info": {
+        "color": "Black",
+        "battery_life": "10 days",
+        "water_resistant": true
+      }
+    },
+    {
+      "id": "WT010",
+      "company": "ActiveWear",
+      "name": "Smart Sports Glasses",
+      "image": "/img/ImagewearableTech/watch10.jpeg",
+     "description": "Smart glasses with built-in HUD (head-up display) to provide stats and notifications while playing sports.",
+      "price": 299.99,
+      "salePrice": 259.99,
+      "sale": false,
+      "review": {
+        "rating": 4.9,
+        "total_reviews": 1500
+      },
+      "product_info": {
+        "color": "Black",
+        "battery_life": "5 hours",
+        "water_resistant": true
+      }
+    }
+  ]
+  
