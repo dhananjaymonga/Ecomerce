@@ -13,10 +13,10 @@ const decrementQuantity = () => {
   setQuantity((prevQuantity) => (prevQuantity > 1 ? prevQuantity - 1 : 1));
 };
 
-  // const removeItem = (id) => {
-  //   const updatedCart = cartItems.filter((item) => item.id !== id);
-  //   setCartItems(updatedCart);
-  // };
+  const removeItem = (id) => {
+    const updatedCart = cart.filter((item) => item.id !== id);
+    setCart(updatedCart);
+  };
 // console.log(cart)
   // const calculateTotal = () => {
   //   // return cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
