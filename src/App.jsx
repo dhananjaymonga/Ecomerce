@@ -5,13 +5,14 @@ import Need from "./Component/Need";
 import Click from "./Component/Click";
 import About from "./Component/About";
 import Phone from "./Component/Phone";
-
+import Off from "./Component/Off";
 import FAQItem from "./Component/TechCenter";
 import Pay from "./Component/Pay"
 import { Tech } from "./Component/TechCenter";
 import ProductList from "./Component/Product";
 import AddCArt from "./Component/AddCArt";
 import Whislist from "./Component/Whislist";
+import Carousel from "./Component/Carousel";
 
 // import Phone1 from "./Component/Phone1";
 
@@ -30,6 +31,8 @@ const App = () => {
   return (
     <div>
       <Whislist/>
+      {/* <Off/> */}
+      {/* <Carousel/> */}
       <Phone/>
       <Need />
       <Footer />

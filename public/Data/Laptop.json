@@ -1,77 +1,201 @@
-[
-  {
-    "id": 8,
-    "name": "MacBook Pro 16-inch (M2 Max)",
-    "company": "Apple",
-    "price": 3499,
-    "description": "The ultimate MacBook Pro with M2 Max chip, 16-inch Liquid Retina XDR display, and up to 96GB of unified memory.",
-    "image": "/img/laptop2.webp",    "reviews": 4.9,
-    "salePrice": 3299,
-    "sale": true
-  },
-  {
-    "id": 2,
-    "name": "MacBook Air 13-inch (M2)",
-    "company": "Apple",
-    "price": 1199,
-    "description": "Lightweight and powerful with the M2 chip, 13-inch Liquid Retina display, and all-day battery life.",
-    "image": "/img/laptop3.webp",  
-      "reviews": 4.8,
-    "salePrice": 1099,
-    "sale": true
-  },
-  {
-    "id": 3,
-    "name": "Dell XPS 13 Plus",
-    "company": "Dell",
-    "price": 1299,
-    "description": "A sleek and modern ultrabook with Intel Core i7, InfinityEdge display, and advanced thermal design.",
-    "image": "/img/Laptop.avif",    "reviews": 4.7,
-    "salePrice": null,
-    "sale": false
-  },
-  {
-    "id": 4,
-    "name": "Dell XPS 15",
-    "company": "Dell",
-    "price": 1899,
-    "description": "High-performance laptop featuring Intel Core i9, NVIDIA GeForce RTX graphics, and a stunning OLED display.",
-    "image": "/img/Laptop.avif",    "reviews": 4.8,
-    "salePrice": 1799,
-    "sale": true
-  },
-  {
-    "id": 5,
-    "name": "HP Spectre x360 14",
-    "company": "HP",
-    "price": 1399,
-    "description": "Premium 2-in-1 convertible laptop with a 3:2 OLED display, Intel Evo platform, and excellent battery life.",
-    "image": "/img/Laptop.avif",    "reviews": 4.7,
-    "salePrice": 1299,
-    "sale": true
-  },
-  {
-    "id": 6,
-    "name": "HP Envy 15",
-    "company": "HP",
-    "price": 1249,
-    "description": "A creative powerhouse with Intel Core i7, NVIDIA GTX graphics, and a vibrant 4K touchscreen display.",
-    "image": "/img/laptop5.webp",    "reviews": 4.6,
-    "salePrice": null,
-    "sale": false
-  },
-  {
-    "id": 7,
-    "name": "MacBook Pro 14-inch (M2 Pro)",
-    "company": "Apple",
-    "price": 1999,
-    "description": "Powerful 14-inch MacBook Pro with M2 Pro chip, Liquid Retina XDR display, and up to 18 hours of battery life.",
-    "image": "/img/laptop4.webp",
-        "reviews": 4.9,
-    "salePrice": 1899,
-    "sale": true
-  }
-]
+
 
     
     
+[
+  {
+    "id": "MacBookPro_16inch_M2Max",
+    "name": "MacBook Pro 16-inch (M2 Max)",
+    "company": "Apple",
+    "image": "/img/laptop2.webp",
+        "description": "The MacBook Pro 16-inch (M2 Max) delivers unmatched performance with its M2 Max chip and stunning Retina display, perfect for professionals.",
+    "price": 239900,
+    "salePrice": 229900,
+    "sale": true,
+    "review": {
+      "rating": 4.9,
+      "total_reviews": 1200
+    },
+    "product_info": {
+      "screen_size": "16 inches",
+      "processor": "Apple M2 Max",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "battery_life": "21 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "MacBookAir_13inch_M2",
+    "name": "MacBook Air 13-inch (M2)",
+    "company": "Apple",
+    "image": "/img/laptop3.webp",  
+    "description": "The MacBook Air 13-inch (M2) is an ultra-light, powerful laptop with Apple's M2 chip, ideal for everyday productivity and creativity.",
+    "price": 99900,
+    "salePrice": 94900,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 2000
+    },
+    "product_info": {
+      "screen_size": "13 inches",
+      "processor": "Apple M2",
+      "ram": "8GB",
+      "storage": "256GB SSD",
+      "battery_life": "18 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "MacBookPro_14inch_M2Pro",
+    "name": "MacBook Pro 14-inch (M2 Pro)",
+    "company": "Apple",
+    "image": "/img/laptop4.webp",
+    "description": "The MacBook Pro 14-inch (M2 Pro) is perfect for professionals with its M2 Pro chip, offering high performance in a compact design.",
+    "price": 169900,
+    "salePrice": 159900,
+    "sale": true,
+    "review": {
+      "rating": 4.9,
+      "total_reviews": 1800
+    },
+    "product_info": {
+      "screen_size": "14 inches",
+      "processor": "Apple M2 Pro",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "battery_life": "17 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "HP_Envy_15",
+    "name": "HP Envy 15",
+    "company": "HP",
+    "image": "/img/laptop5.webp",      "description": "HP Envy 15 is a powerful laptop equipped with an Intel Core i7 processor, making it ideal for both work and entertainment.",
+    "price": 129900,
+    "salePrice": 119900,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 1500
+    },
+    "product_info": {
+      "screen_size": "15.6 inches",
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "battery_life": "12 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "HPSpectre_x360_14",
+    "name": "HP Spectre x360 14",
+    "company": "HP",
+    "image": "/img/Laptop.avif", 
+        "description": "HP Spectre x360 14 is a versatile 2-in-1 laptop featuring an Intel Core i7 processor and a stunning 4K OLED display.",
+    "price": 144900,
+    "salePrice": 139900,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 1300
+    },
+    "product_info": {
+      "screen_size": "13.5 inches",
+      "processor": "Intel Core i7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "battery_life": "13 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "Dell_XPS_15",
+    "name": "Dell XPS 15",
+    "company": "Dell",
+    "image": "/img/laptop7.jpg",    "description": "Dell XPS 15 offers stunning visuals and incredible performance with its Intel Core i9 processor, perfect for content creators.",
+    "price": 179900,
+    "salePrice": 169900,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 1100
+    },
+    "product_info": {
+      "screen_size": "15.6 inches",
+      "processor": "Intel Core i9",
+      "ram": "16GB",
+      "storage": "1TB SSD",
+      "battery_life": "14 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "Dell_XPS_13Plus",
+    "name": "Dell XPS 13 Plus",
+    "company": "Dell",
+    "image": "/img/laptop8.webp",     "description": "Dell XPS 13 Plus is an ultra-compact laptop with a stunning InfinityEdge display and the latest Intel Core i7 processor.",
+    "price": 119900,
+    "salePrice": 109900,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 2000
+    },
+    "product_info": {
+      "screen_size": "13.4 inches",
+      "processor": "Intel Core i7",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "battery_life": "11 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "Lenovo_Legion_5Pro",
+    "name": "Lenovo Legion 5 Pro",
+    "company": "Lenovo",
+    "image": "/img/laptop9.webp",
+    "description": "Lenovo Legion 5 Pro is a powerful gaming laptop featuring the latest AMD Ryzen 7 processor and a high refresh rate display.",
+    "price": 144900,
+    "salePrice": 139900,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 800
+    },
+    "product_info": {
+      "screen_size": "16 inches",
+      "processor": "AMD Ryzen 7",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "battery_life": "10 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "Asus_ZenBook_Flip14",
+    "name": "Asus ZenBook Flip 14",
+    "company": "Asus",
+    "image": "/img/laptop10.jpg",
+    "description": "Asus ZenBook Flip 14 is a 2-in-1 laptop with a 14-inch touchscreen display and the latest Intel Core i5 processor.",
+    "price": 104900,
+    "salePrice": 98900,
+    "sale": true,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 1000
+    },
+    "product_info": {
+      "screen_size": "14 inches",
+      "processor": "Intel Core i5",
+      "ram": "8GB",
+      "storage": "512GB SSD",
+      "battery_life": "12 hours",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  }
+]

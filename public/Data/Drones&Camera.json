@@ -121,7 +121,7 @@
     }
   },
   {
-    "id": "DRN002",
+    "id": "DRN0011",
     "company": "Parrot",
     "name": "Parrot Anafi",
     "image": "/img/DroneImage/drone2.jpeg",
@@ -141,7 +141,7 @@
     }
   },
   {
-    "id": "DRN003",
+    "id": "DRN0012",
     "company": "Autel Robotics",
     "name": "Autel EVO Lite+",
     "image": "/img/DroneImage/drone3.jpeg",

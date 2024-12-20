@@ -8,34 +8,27 @@ const Item = () => {
   const [showReturnPolicy, setShowReturnPolicy] = React.useState(false);
   const [showShippingInfo, setShowShippingInfo] = React.useState(false);
 
-  console.log(item);
-//   const handleNext = () => {
 
-//     ((prevIndex) => (prevIndex + 1) % products.length);
-//   };
 
-  const addToCart = (product) => {
+  const Star = ({ filled }) => (
+    <span style={{ color: filled ? "gold" : "lightgray", fontSize: "20px" }}>
+      ★
+    </span>
+  );
+  const addToCart = (item) => {
     console.log("hell")
     if (!cart.find((item) => item.id === product.id)) {
-      setCart([...cart, product]);
+      setCart([...cart, item]);
     }
   };
-  const toggleWishlist = (product) => {
-    if (wishlist.find((item) => item.id === product.id)) {
-      setWishlist(wishlist.filter((item) => item.id !== product.id));
+  const toggleWishlist = (item) => {
+    if (wishlist.find((item) => item.id === item.id)) {
+      setWishlist(wishlist.filter((item) => item.id !== item.id));
     } else {
-      setWishlist([...wishlist, products]);
+      setWishlist([...wishlist, item]);
     }
   };
-//   const handlePrev = () => {
-//     setCurrentProductIndex(
-//       (prevIndex) => (prevIndex - 1 + products.length) % products.length
-//     );
-//   };
 
-  const handleAddToCart = () => {
-    alert(`Added ${quantity} of ${currentProduct.name} to cart.`);
-  };
 
   const handleAddToWishlist = () => {
     alert(`Added ${currentProduct.name} to wishlist.`);
@@ -50,9 +43,7 @@ const Item = () => {
   };
   return (
     <div>
-      {/* {item.map((val)=>{
-            return(val.n)
-        })} */}
+   
       <div className="container mx-auto p-4">
         <nav className="text-sm text-gray-600 mb-4">
           <a href="#" className="hover:underline">
@@ -87,6 +78,17 @@ const Item = () => {
                 <div className="text-2xl font-bold text-purple-600 mb-4">
                   {item.salePrice}
                 </div>
+                <div className="flex items-center mb-4">
+            <span className="mr-2">Rating:</span>
+            {Array(5)
+              .fill(0)
+              .map((_, index) => (
+                <Star key={index} filled={index < Math.floor(item.review.rating)} />
+              ))}
+            <span className="ml-2 text-sm text-gray-600">
+              ({item.review.rating} / 5 based on {item.review.total_reviews} reviews)
+            </span>
+          </div>
                 <div className="mb-4">
                   <label
                     htmlFor="quantity"
@@ -119,9 +121,7 @@ const Item = () => {
                 </div>
                 <div className="flex items-center mb-4">
                   <button
-                    onClick={handleAddToCart}
-                    className="bg-purple-600 text-white px-4 py-2 rounded-md mr-2"
-                  >
+ onClick={() => addToCart(item)}className="bg-purple-600 text-white px-4 py-2 rounded-md mr-2" >
                     Add to Cart
                   </button>
                   <button className="bg-gray-800 text-white px-4 py-2 rounded-md">
@@ -129,10 +129,12 @@ const Item = () => {
                   </button>
                   <i
           className={`fas fa-heart cursor-pointer ${
-            wishlist.find((item) => item.id === products.id) ? 'text-red-600' : 'text-gray-400'
+            wishlist.find((item) => item.id === item.id) ? 'text-red-600' : 'text-gray-400'
           }`}
-          onClick={() => toggleWishlist(product)}
+          onClick={() => toggleWishlist(item)}
         ></i>
+
+
                 </div>
                 <div>
                   <div className="mb-4">

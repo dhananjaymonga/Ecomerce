@@ -1,88 +1,234 @@
- [
+[
   {
     "id": 1,
     "name": "iPhone 13 Pro Max",
     "company": "Apple",
-    "price": 1299,
+    "image": "/img/phone2.webp",
     "description": "Apple's iPhone 13 Pro Max offers a stunning 6.7-inch Super Retina XDR display, triple cameras, and A15 Bionic chip for exceptional performance.",
-    "image": "/img/phone.webp",
-
-    "reviews": 4.8,
-    "salePrice": 1199,
-    "sale": true
-  },
-    {
-      "id": 2,
-      "name": "iPhone 14 Pro",
-      "company": "Apple",
-      "price": 1399,
-      "description": "The iPhone 14 Pro introduces Dynamic Island, always-on display, and the powerful A16 Bionic chip.",
-      "reviews": 4.9,
-      "image": "/img/phone2.webp",
-      "salePrice": 1299,
-      "sale": true
+    "price": 91217,
+    "salePrice": 82917,
+    "sale": true,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 3200
     },
-    {
-      "id": 3,
-      "name": "Galaxy S23",
-      "company": "Samsung",
-      "price": 1799,
-      "description": "Samsung Galaxy S23  offers a foldable design with a 7.6-inch AMOLED screen, S Pen support, and Snapdragon 888.",
-      "image": "/img/phone3.webp",
- 
-      "reviews": 4.7,
-      "salePrice": 1699,
-      "sale": true
-    },
-    {
-      "id": 4,
-      "name": "iPhone 12",
-      "company": "Apple",
-      "price": 799,
-      "description": "iPhone 12 offers a 6.1-inch Super Retina XDR display, A14 Bionic chip, and ceramic shield for better durability.",
-      "image": "/img/phone1.webp",
-
-      "reviews": 4.6,
-      "salePrice": 699,
-      "sale": true
-    },
-    {
-      "id": 5,
-      "name": "iPhone SE (2022)",
-      "company": "Apple",
-      "price": 429,
-      "description": "The compact iPhone SE features the A15 Bionic chip, 5G support, and Touch ID in a classic design.",
-      "image": "/img/phonese.jpeg",
-      "reviews": 4.5,
-
-      "salePrice": 549,
-      "sale": false
-    },
-    {
-      "id": 6,
-      "name": "iPhone 11",
-      "company": "Apple",
-      "price": 599,
-      "description": "iPhone 11 combines dual cameras, Liquid Retina HD display, and A13 Bionic for excellent performance.",
-      
-      "image": "/img/phone11.webp",
-      "reviews": 4.7,
-      "salePrice": null,
-      "sale": false
-    },
- 
-    {
-      "id": 7,
-      "name": "Galaxy S23 Ultra",
-      "company": "Samsung",
-      "price": 1199,
-      "description": "Samsung Galaxy S23 Ultra comes with a 6.8-inch AMOLED display, Snapdragon 8 Gen 2 processor, and 200MP camera.",
-      "reviews": 4.8,
-      "salePrice": 1099,
-      "image": "/img/phone3.webp",
-
-      "sale": false
+    "product_info": {
+      "screen_size": "6.7 inches",
+      "camera": "Triple 12MP cameras",
+      "battery_life": "20 hours",
+      "chip": "A15 Bionic",
+      "connectivity": "5G"
     }
-   
-  ]
+  },
+  {
+    "id": 4,
+    "name": "Galaxy S23",
+    "company": "Samsung",
+    "image": "/img/phone3.webp",
+    "description": "Samsung Galaxy S23 offers a foldable design with a 7.6-inch AMOLED screen, S Pen support, and Snapdragon 888.",
+    "price": 74717,
+    "salePrice": 70517,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 2200
+    },
+    "product_info": {
+      "screen_size": "7.6 inches",
+      "camera": "Triple 50MP cameras",
+      "battery_life": "22 hours",
+      "chip": "Snapdragon 888",
+      "connectivity": "5G"
+    }
+  },
+  {
+    "id": 2,
+    "name": "iPhone 14 Pro",
+    "company": "Apple",
+    "image": "/img/phone1.webp",
+    "description": "The iPhone 14 Pro introduces Dynamic Island, always-on display, and the powerful A16 Bionic chip.",
+    "price": 82917,
+    "salePrice": 78767,
+    "sale": true,
+    "review": {
+      "rating": 4.9,
+      "total_reviews": 5000
+    },
+    "product_info": {
+      "screen_size": "6.1 inches",
+      "camera": "Triple 48MP cameras",
+      "battery_life": "23 hours",
+      "chip": "A16 Bionic",
+      "connectivity": "5G"
+    }
+  },
+  {
+    "id": 11,
+    "name": "iPhone 14 Pro",
+    "company": "Apple",
+    "image": "/img/phone.webp",
+    "description": "The iPhone 14 Pro introduces Dynamic Island, always-on display, and the powerful A16 Bionic chip.",
+    "price": 82917,
+    "salePrice": 78767,
+    "sale": true,
+    "review": {
+      "rating": 4.9,
+      "total_reviews": 5000
+    },
+    "product_info": {
+      "screen_size": "6.1 inches",
+      "camera": "Triple 48MP cameras",
+      "battery_life": "23 hours",
+      "chip": "A16 Bionic",
+      "connectivity": "5G"
+    }
+  },
+  {
+    "id": 3,
+    "name": "iPhone SE (2022)",
+    "company": "Apple",
+    "image": "/img/phonesee.jpeg",
+    "description": "The compact iPhone SE features the A15 Bionic chip, 5G support, and Touch ID in a classic design.",
+    "price": 35607,
+    "salePrice": 33117,
+    "sale": false,
+    "review": {
+      "rating": 4.5,
+      "total_reviews": 1500
+    },
+    "product_info": {
+      "screen_size": "4.7 inches",
+      "camera": "12MP single camera",
+      "battery_life": "15 hours",
+      "chip": "A15 Bionic",
+      "connectivity": "5G"
+    }
+  },
 
+  {
+    "id": 5,
+    "name": "Galaxy S23 Ultra",
+    "company": "Samsung",
+    "image": "/img/phone3.webp",
+    "description": "Samsung Galaxy S23 Ultra comes with a 6.8-inch AMOLED display, Snapdragon 8 Gen 2 processor, and 200MP camera.",
+    "price": 99717,
+    "salePrice": 91217,
+    "sale": false,
+    "review": {
+      "rating": 4.8,
+      "total_reviews": 3300
+    },
+    "product_info": {
+      "screen_size": "6.8 inches",
+      "camera": "Quad 200MP cameras",
+      "battery_life": "24 hours",
+      "chip": "Snapdragon 8 Gen 2",
+      "connectivity": "5G"
+    }
+  },
+  {
+    "id": 6,
+    "name": "OnePlus 11",
+    "company": "OnePlus",
+    "image": "/img/phone6.jpeg",
+    "description": "OnePlus 11 5G offers a 6.7-inch AMOLED display, Snapdragon 8 Gen 2, and a 50MP primary camera.",
+    "price": 66417,
+    "salePrice": 62117,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 1800
+    },
+    "product_info": {
+      "screen_size": "6.7 inches",
+      "camera": "Triple 50MP cameras",
+      "battery_life": "20 hours",
+      "chip": "Snapdragon 8 Gen 2",
+      "connectivity": "5G"
+    }
+  },
+  {
+    "id": 7,
+    "name": "OnePlus Nord 3",
+    "company": "OnePlus",
+    "image": "/img/phone7.jpeg",
+    "description": "OnePlus Nord 3 5G offers a large 6.74-inch display, MediaTek Dimensity 9000 chipset, and a 50MP primary camera.",
+    "price": 41417,
+    "salePrice": 37317,
+    "sale": true,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 1300
+    },
+    "product_info": {
+      "screen_size": "6.74 inches",
+      "camera": "Triple 50MP cameras",
+      "battery_life": "18 hours",
+      "chip": "MediaTek Dimensity 9000",
+      "connectivity": "5G"
+    }
+  },
+  {
+    "id": 8,
+    "name": "iPhone 12",
+    "company": "Apple",
+    "image": "/img/phone8.jpeg",
+    "description": "iPhone 12 offers a 6.1-inch Super Retina XDR display, A14 Bionic chip, and ceramic shield for better durability.",
+    "price": 66417,
+    "salePrice": 62117,
+    "sale": true,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 2900
+    },
+    "product_info": {
+      "screen_size": "6.1 inches",
+      "camera": "Dual 12MP cameras",
+      "battery_life": "17 hours",
+      "chip": "A14 Bionic",
+      "connectivity": "5G"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Galaxy Z Flip 5",
+    "company": "Samsung",
+    "image": "/img/phone9.jpeg",
+    "description": "The Galaxy Z Flip 5 is a foldable phone with a 6.7-inch AMOLED display, Snapdragon 8 Gen 2, and a dual 12MP camera system.",
+    "price": 134917,
+    "salePrice": 125417,
+    "sale": true,
+    "review": {
+      "rating": 4.6,
+      "total_reviews": 1200
+    },
+    "product_info": {
+      "screen_size": "6.7 inches",
+      "camera": "Dual 12MP cameras",
+      "battery_life": "15 hours",
+      "chip": "Snapdragon 8 Gen 2",
+      "connectivity": "5G"
+    }
+  },
+  {
+    "id": 10,
+    "name": "OnePlus 9 Pro",
+    "company": "OnePlus",
+    "image": "/img/phone10.jpeg",
+    "description": "OnePlus 9 Pro features a 6.7-inch AMOLED display, Snapdragon 888, and a 48MP quad camera setup.",
+    "price": 78417,
+    "salePrice": 74817,
+    "sale": true,
+    "review": {
+      "rating": 4.7,
+      "total_reviews": 2100
+    },
+    "product_info": {
+      "screen_size": "6.7 inches",
+      "camera": "Quad 48MP cameras",
+      "battery_life": "18 hours",
+      "chip": "Snapdragon 888",
+      "connectivity": "5G"
+    }
+  }
+]

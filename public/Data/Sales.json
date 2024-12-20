@@ -40,27 +40,47 @@
         }
       }, 
       {
-        "id": 2,
+        "id": "MacBookAir_13inch_M2",
         "name": "MacBook Air 13-inch (M2)",
         "company": "Apple",
-        "price": 1199,
-        "description": "Lightweight and powerful with the M2 chip, 13-inch Liquid Retina display, and all-day battery life.",
         "image": "/img/laptop3.webp",  
-          "reviews": 4.8,
-        "salePrice": 1099,
-        "sale": true
+        "description": "The MacBook Air 13-inch (M2) is an ultra-light, powerful laptop with Apple's M2 chip, ideal for everyday productivity and creativity.",
+        "price": 99900,
+        "salePrice": 94900,
+        "sale": true,
+        "review": {
+          "rating": 4.8,
+          "total_reviews": 2000
+        },
+        "product_info": {
+          "screen_size": "13 inches",
+          "processor": "Apple M2",
+          "ram": "8GB",
+          "storage": "256GB SSD",
+          "battery_life": "18 hours",
+          "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+        }
       },
       {
-        "id": 1,
-        "name": "iPhone 13 Pro Max",
+        "id": 2,
+        "name": "iPhone 14 Pro",
         "company": "Apple",
-        "price": 1299,
-        "description": "Apple's iPhone 13 Pro Max offers a stunning 6.7-inch Super Retina XDR display, triple cameras, and A15 Bionic chip for exceptional performance.",
-        "image": "/img/phone.webp",
-    
-        "reviews": 4.8,
-        "salePrice": 1199,
-        "sale": true
+        "image": "/img/phone1.webp",
+        "description": "The iPhone 14 Pro introduces Dynamic Island, always-on display, and the powerful A16 Bionic chip.",
+        "price": 82917,
+        "salePrice": 78767,
+        "sale": true,
+        "review": {
+          "rating": 4.9,
+          "total_reviews": 5000
+        },
+        "product_info": {
+          "screen_size": "6.1 inches",
+          "camera": "Triple 48MP cameras",
+          "battery_life": "23 hours",
+          "chip": "A16 Bionic",
+          "connectivity": "5G"
+        }
       },
       {
         "id": "DRN002",
@@ -103,26 +123,47 @@
         }
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "Galaxy S23",
         "company": "Samsung",
-        "price": 1799,
-        "description": "Samsung Galaxy S23  offers a foldable design with a 7.6-inch AMOLED screen, S Pen support, and Snapdragon 888.",
         "image": "/img/phone3.webp",
-   
-        "reviews": 4.7,
-        "salePrice": 1699,
-        "sale": true
+        "description": "Samsung Galaxy S23 offers a foldable design with a 7.6-inch AMOLED screen, S Pen support, and Snapdragon 888.",
+        "price": 74717,
+        "salePrice": 70517,
+        "sale": true,
+        "review": {
+          "rating": 4.7,
+          "total_reviews": 2200
+        },
+        "product_info": {
+          "screen_size": "7.6 inches",
+          "camera": "Triple 50MP cameras",
+          "battery_life": "22 hours",
+          "chip": "Snapdragon 888",
+          "connectivity": "5G"
+        }
       },
       {
-        "id": 8,
+        "id": "MacBookPro_16inch_M2Max",
         "name": "MacBook Pro 16-inch (M2 Max)",
         "company": "Apple",
-        "price": 3499,
-        "description": "The ultimate MacBook Pro with M2 Max chip, 16-inch Liquid Retina XDR display, and up to 96GB of unified memory.",
-        "image": "/img/laptop2.webp",    "reviews": 4.9,
-        "salePrice": 3299,
-        "sale": true
+        "image": "/img/laptop2.webp",
+            "description": "The MacBook Pro 16-inch (M2 Max) delivers unmatched performance with its M2 Max chip and stunning Retina display, perfect for professionals.",
+        "price": 239900,
+        "salePrice": 229900,
+        "sale": true,
+        "review": {
+          "rating": 4.9,
+          "total_reviews": 1200
+        },
+        "product_info": {
+          "screen_size": "16 inches",
+          "processor": "Apple M2 Max",
+          "ram": "32GB",
+          "storage": "1TB SSD",
+          "battery_life": "21 hours",
+          "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+        }
       },
       
       {
@@ -145,15 +186,26 @@
         }
       },
       {
-        "id": 7,
+        "id": "MacBookPro_14inch_M2Pro",
         "name": "MacBook Pro 14-inch (M2 Pro)",
         "company": "Apple",
-        "price": 1999,
-        "description": "Powerful 14-inch MacBook Pro with M2 Pro chip, Liquid Retina XDR display, and up to 18 hours of battery life.",
         "image": "/img/laptop4.webp",
-            "reviews": 4.9,
-        "salePrice": 1899,
-        "sale": true
+        "description": "The MacBook Pro 14-inch (M2 Pro) is perfect for professionals with its M2 Pro chip, offering high performance in a compact design.",
+        "price": 169900,
+        "salePrice": 159900,
+        "sale": true,
+        "review": {
+          "rating": 4.9,
+          "total_reviews": 1800
+        },
+        "product_info": {
+          "screen_size": "14 inches",
+          "processor": "Apple M2 Pro",
+          "ram": "16GB",
+          "storage": "512GB SSD",
+          "battery_life": "17 hours",
+          "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+        }
       }
 
 
